@@ -1,0 +1,810 @@
+﻿Log file open, 02/07/21 23:09:40
+LogInit: Display: Running engine for game: doorpuzzle
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.151308
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 7 3700X 8-Core Processor             , GPU: NVIDIA GeForce RTX 2070 SUPER
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.02.08-04.09.40:645][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.02.08-04.09.40:645][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.02.08-04.09.40:645][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Engine.ini]
+[2021.02.08-04.09.40:645][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.02.08-04.09.40:645][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Engine.ini]
+[2021.02.08-04.09.40:645][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Engine.ini]
+[2021.02.08-04.09.40:645][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.02.08-04.09.40:645][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.02.08-04.09.40:645][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.02.08-04.09.40:645][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.02.08-04.09.40:645][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.02.08-04.09.40:645][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.02.08-04.09.40:645][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.02.08-04.09.40:645][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.02.08-04.09.40:645][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.02.08-04.09.40:645][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Engine.ini]
+[2021.02.08-04.09.40:646][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.02.08-04.09.40:646][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Engine.ini]
+[2021.02.08-04.09.40:646][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Engine.ini]
+[2021.02.08-04.09.40:648][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Scalability.ini]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Scalability.ini]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Scalability.ini]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Scalability.ini]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Scalability.ini]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Scalability.ini]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.08-04.09.40:648][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Scalability.ini]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Scalability.ini]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.08-04.09.40:649][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.08-04.09.40:649][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.02.08-04.09.40:649][  0]LogHAL: Display: Platform has ~ 16 GB [17126449152 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.02.08-04.09.40:649][  0]LogInit: Going up to parent DeviceProfile []
+[2021.02.08-04.09.40:649][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Scalability.ini]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Scalability.ini]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Scalability.ini]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Scalability.ini]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Scalability.ini]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.08-04.09.40:649][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Scalability.ini]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Scalability.ini]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Scalability.ini]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.02.08-04.09.40:650][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Config/Windows/Engine.ini]
+[2021.02.08-04.09.40:650][  0]LogInit: Computer: DESKTOP-PKI3FDJ
+[2021.02.08-04.09.40:650][  0]LogInit: User: tyler
+[2021.02.08-04.09.40:650][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.02.08-04.09.40:650][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.02.08-04.09.40:650][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2021.02.08-04.09.40:650][  0]LogMemory: Platform Memory Stats for Windows
+[2021.02.08-04.09.40:650][  0]LogMemory: Process Physical Memory: 115.01 MB used, 115.02 MB peak
+[2021.02.08-04.09.40:650][  0]LogMemory: Process Virtual Memory: 98.14 MB used, 98.14 MB peak
+[2021.02.08-04.09.40:650][  0]LogMemory: Physical Memory: 8686.66 MB used,  7646.40 MB free, 16333.05 MB total
+[2021.02.08-04.09.40:650][  0]LogMemory: Virtual Memory: 5185.08 MB used,  134212544.00 MB free, 134217728.00 MB total
+[2021.02.08-04.09.40:655][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.02.08-04.09.40:692][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.02.08-04.09.40:693][  0]LogInit: Using OS detected language (en-US).
+[2021.02.08-04.09.40:693][  0]LogInit: Using OS detected locale (en-US).
+[2021.02.08-04.09.40:696][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.02.08-04.09.40:845][  0]LogInit: Setting process to per monitor DPI aware
+[2021.02.08-04.09.40:872][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.02.08-04.09.40:872][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.02.08-04.09.40:975][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.08-04.09.40:975][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.02.08-04.09.40:975][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.02.08-04.09.40:975][  0]LogD3D11RHI: D3D11 adapters:
+[2021.02.08-04.09.41:049][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 SUPER' (Feature Level 11_0)
+[2021.02.08-04.09.41:049][  0]LogD3D11RHI:       8011/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.02.08-04.09.41:050][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.02.08-04.09.41:050][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.02.08-04.09.41:050][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.02.08-04.09.41:058][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.02.08-04.09.41:058][  0]LogD3D11RHI:     GPU DeviceId: 0x1e84 (for the marketing name, search the web for "GPU Device Id")
+[2021.02.08-04.09.41:058][  0]LogWindows: EnumDisplayDevices:
+[2021.02.08-04.09.41:059][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070 SUPER' (P:1 D:1)
+[2021.02.08-04.09.41:059][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2021.02.08-04.09.41:059][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2021.02.08-04.09.41:059][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2021.02.08-04.09.41:059][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.02.08-04.09.41:059][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 SUPER
+[2021.02.08-04.09.41:059][  0]LogD3D11RHI:   Driver Version: 457.30 (internal:27.21.14.5730, unified:457.30)
+[2021.02.08-04.09.41:059][  0]LogD3D11RHI:      Driver Date: 11-6-2020
+[2021.02.08-04.09.41:059][  0]LogRHI: Texture pool is 5607 MB (70% of 8011 MB)
+[2021.02.08-04.09.41:097][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.02.08-04.09.41:097][  0]LogD3D11RHI: Async texture creation enabled
+[2021.02.08-04.09.41:097][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.02.08-04.09.41:117][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.02.08-04.09.41:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.02.08-04.09.41:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.02.08-04.09.41:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.02.08-04.09.41:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.02.08-04.09.41:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.02.08-04.09.41:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.02.08-04.09.41:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.02.08-04.09.41:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.02.08-04.09.41:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.02.08-04.09.41:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.02.08-04.09.41:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.02.08-04.09.41:369][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.02.08-04.09.41:369][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.02.08-04.09.41:379][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.02.08-04.09.41:388][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.02.08-04.09.41:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.02.08-04.09.41:405][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.02.08-04.09.41:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.02.08-04.09.41:422][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.02.08-04.09.41:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.02.08-04.09.41:454][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.02.08-04.09.41:454][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.02.08-04.09.41:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.02.08-04.09.41:468][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.02.08-04.09.41:476][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.02.08-04.09.41:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.02.08-04.09.41:492][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.02.08-04.09.41:500][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.02.08-04.09.41:500][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.02.08-04.09.41:507][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.02.08-04.09.41:558][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Intermediate/Shaders/WorkingDirectory/18436/).
+[2021.02.08-04.09.41:559][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tyler/AppData/Local/Temp/UnrealShaderWorkingDir/0006CC0D40CE1F2E180B4391F72E1AB7/'.
+[2021.02.08-04.09.41:559][  0]LogXGEController: Cleaning working directory: C:/Users/tyler/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.02.08-04.09.41:559][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.02.08-04.09.41:559][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.02.08-04.09.41:559][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.02.08-04.09.42:191][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.02.08-04.09.42:228][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/tyler/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.08-04.09.42:228][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tyler/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.02.08-04.09.42:228][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.02.08-04.09.42:228][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.02.08-04.09.42:228][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.08-04.09.42:228][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.02.08-04.09.42:237][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.02.08-04.09.42:238][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.08-04.09.42:238][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.02.08-04.09.42:239][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tyler/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.02.08-04.09.42:239][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.02.08-04.09.42:239][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.02.08-04.09.42:279][  0]LogSlate: Using FreeType 2.10.0
+[2021.02.08-04.09.42:280][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.02.08-04.09.42:297][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2021.02.08-04.09.42:485][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.08-04.09.42:572][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.02.08-04.09.42:572][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.02.08-04.09.42:572][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.02.08-04.09.42:572][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.02.08-04.09.42:572][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.02.08-04.09.42:587][  0]LogNetVersion: doorpuzzle 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1614391335)
+[2021.02.08-04.09.42:891][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002716E92C2C0), frame # 0
+[2021.02.08-04.09.42:891][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002716E872AC0), frame # 0
+[2021.02.08-04.09.42:892][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002716E8BDE00), frame # 0
+[2021.02.08-04.09.42:931][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.034329 seconds
+[2021.02.08-04.09.42:935][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.02.08-04.09.42:935][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.02.08-04.09.42:935][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.02.08-04.09.43:205][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.02.08-04.09.43:209][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.02.08-04.09.43:269][  0]SourceControl: Source control is disabled
+[2021.02.08-04.09.43:269][  0]SourceControl: Source control is disabled
+[2021.02.08-04.09.43:272][  0]SourceControl: Source control is disabled
+[2021.02.08-04.09.43:274][  0]SourceControl: Source control is disabled
+[2021.02.08-04.09.43:279][  0]SourceControl: Source control is disabled
+[2021.02.08-04.09.43:289][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.02.08-04.09.43:290][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.02.08-04.09.43:475][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.02.08-04.09.43:491][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.08-04.09.43:491][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.08-04.09.43:532][  0]LogOcInput: OculusInput pre-init called
+[2021.02.08-04.09.43:541][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.02.08-04.09.43:541][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.02.08-04.09.43:595][  0]LogEngine: Initializing Engine...
+[2021.02.08-04.09.43:596][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.08-04.09.43:596][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.02.08-04.09.43:596][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.02.08-04.09.43:681][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.02.08-04.09.43:690][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.02.08-04.09.43:690][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027171044600), frame # 0
+[2021.02.08-04.09.43:690][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027171051BC0), frame # 0
+[2021.02.08-04.09.43:696][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.08-04.09.43:696][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.08-04.09.43:696][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.08-04.09.43:696][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.08-04.09.43:696][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.08-04.09.43:696][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.08-04.09.43:696][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.08-04.09.43:696][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.08-04.09.43:696][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.08-04.09.43:696][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.08-04.09.43:705][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.08-04.09.43:705][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.02.08-04.09.43:705][  0]LogAudioMixer: Display: 2: FrontCenter
+[2021.02.08-04.09.43:705][  0]LogAudioMixer: Display: 3: LowFrequency
+[2021.02.08-04.09.43:705][  0]LogAudioMixer: Display: 4: BackLeft
+[2021.02.08-04.09.43:705][  0]LogAudioMixer: Display: 5: BackRight
+[2021.02.08-04.09.43:705][  0]LogAudioMixer: Display: 6: SideLeft
+[2021.02.08-04.09.43:705][  0]LogAudioMixer: Display: 7: SideRight
+[2021.02.08-04.09.43:730][  0]LogAudioMixer: Display: Using Audio Device Speakers (Logitech G933 Gaming Wireless Headset)
+[2021.02.08-04.09.43:733][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.08-04.09.43:735][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.08-04.09.43:735][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.08-04.09.43:736][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.08-04.09.43:736][  0]LogInit: FAudioDevice initialized.
+[2021.02.08-04.09.43:737][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.02.08-04.09.43:779][  0]LogDerivedDataCache: Saved boot cache 0.04s 75MB C:/Users/tyler/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.08-04.09.43:783][  0]LogInit: Texture streaming: Enabled
+[2021.02.08-04.09.43:795][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.02.08-04.09.43:795][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.02.08-04.09.43:797][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.02.08-04.09.43:843][  0]LogInit: Transaction tracking system initialized
+[2021.02.08-04.09.43:859][  0]BlueprintLog: New page: Editor Load
+[2021.02.08-04.09.43:913][  0]LocalizationService: Localization service is disabled
+[2021.02.08-04.09.43:977][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.02.08-04.09.43:977][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.02.08-04.09.44:028][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.02.08-04.09.44:028][  0]LogCook: Display: Mobile HDR setting 1
+[2021.02.08-04.09.44:122][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Content/' took 0.00s
+[2021.02.08-04.09.44:250][  0]SourceControl: Source control is disabled
+[2021.02.08-04.09.44:250][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.725
+[2021.02.08-04.09.44:250][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.02.08-04.09.44:250][  0]LightingResults: New page: Lighting Build
+[2021.02.08-04.09.44:251][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.02.08-04.09.44:251][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.08-04.09.44:251][  0]MapCheck: New page: Map Check
+[2021.02.08-04.09.44:251][  0]LightingResults: New page: Lighting Build
+[2021.02.08-04.09.44:265][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027171044600), frame # 0
+[2021.02.08-04.09.44:265][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027171051BC0), frame # 0
+[2021.02.08-04.09.44:265][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.02.08-04.09.44:463][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.08-04.09.44:463][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000271639DC800), frame # 0
+[2021.02.08-04.09.44:463][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027162E59D00), frame # 0
+[2021.02.08-04.09.44:485][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.02.08-04.09.44:499][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.02.08-04.09.44:499][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.02.08-04.09.44:499][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.109ms to complete.
+[2021.02.08-04.09.44:499][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.250
+[2021.02.08-04.09.44:501][  0]LogUnrealEdMisc: Total Editor Startup Time, took 4.976
+[2021.02.08-04.09.44:599][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.08-04.09.44:604][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.08-04.09.44:609][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.08-04.09.44:615][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.08-04.09.44:620][  0]LogCollectionManager: Loaded 0 collections in 0.001438 seconds
+[2021.02.08-04.09.44:633][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Collections/' took 0.00s
+[2021.02.08-04.09.44:633][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Content/Developers/tyler/Collections/' took 0.00s
+[2021.02.08-04.09.44:633][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tyler/Documents/Unreal Projects/doorpuzzle/Content/Collections/' took 0.00s
+[2021.02.08-04.09.44:633][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3427 classes and 821 folders.
+[2021.02.08-04.09.44:634][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.02.08-04.09.44:673][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.02.08-04.09.44:674][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.02.08-04.09.44:692][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.02.08-04.09.44:692][  0]LogLoad: (Engine Initialization) Total time: 5.17 seconds
+[2021.02.08-04.09.44:692][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.02.08-04.09.44:723][  0]LogAssetRegistry: Asset discovery search completed in 2.4263 seconds
+[2021.02.08-04.09.44:726][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.02.08-04.09.44:726][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.08-04.09.44:731][  0]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.02.08-04.09.44:733][  0]LogSlate: Took 0.000084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.02.08-04.09.44:735][  0]LogSlate: Took 0.000085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.02.08-04.09.44:819][  0]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.08-04.09.44:829][  1]LogRenderer: Reallocating scene render targets to support 792x408 Format 10 NumSamples 1 (Frame:1).
+[2021.02.08-04.09.56:389][286]LogRenderer: Reallocating scene render targets to support 1196x652 Format 10 NumSamples 1 (Frame:1286).
+[2021.02.08-04.11.09:145][913]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.08-04.11.09:154][913]LogMetaData: Removing '/Game/myfolder/blueprints/bigdoors.bigdoors_C' ref from Metadata '/Game/AAGAM3362/00_One-Sheets/02_Blog02_DoorSubmission/KatzTy/blueprints/bigdoors.PackageMetaData'
+[2021.02.08-04.11.09:154][913]LogMetaData: Removing '/Game/myfolder/blueprints/bigdoors.SKEL_bigdoors_C:BndEvt__open_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/AAGAM3362/00_One-Sheets/02_Blog02_DoorSubmission/KatzTy/blueprints/bigdoors.PackageMetaData'
+[2021.02.08-04.11.09:154][913]LogMetaData: Removing '/Game/myfolder/blueprints/bigdoors.SKEL_bigdoors_C:BndEvt__close_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/AAGAM3362/00_One-Sheets/02_Blog02_DoorSubmission/KatzTy/blueprints/bigdoors.PackageMetaData'
+[2021.02.08-04.11.09:154][913]LogMetaData: Removing '/Game/myfolder/blueprints/bigdoors.SKEL_bigdoors_C:UserConstructionScript' ref from Metadata '/Game/AAGAM3362/00_One-Sheets/02_Blog02_DoorSubmission/KatzTy/blueprints/bigdoors.PackageMetaData'
+[2021.02.08-04.11.09:154][913]LogMetaData: Removing '/Game/myfolder/blueprints/bigdoors.SKEL_bigdoors_C' ref from Metadata '/Game/AAGAM3362/00_One-Sheets/02_Blog02_DoorSubmission/KatzTy/blueprints/bigdoors.PackageMetaData'
+[2021.02.08-04.11.09:183][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/myfolder/blueprints/bigdoors" FILE="../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Content/myfolder/blueprints/bigdoors.uasset" SILENT=true
+[2021.02.08-04.11.09:209][913]LogSavePackage: Moving '../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/bigdoors752CC12543B31B93399F8CBA309E332E.tmp' to '../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Content/myfolder/blueprints/bigdoors.uasset'
+[2021.02.08-04.11.09:279][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.02.08-04.11.09:299][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.02.08-04.11.09:309][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2021.02.08-04.11.09:345][913]AssetCheck: New page: Asset Save: bigdoors
+[2021.02.08-04.11.09:345][913]LogContentValidation: Display: Validating Blueprint /Game/myfolder/blueprints/bigdoors.bigdoors
+[2021.02.08-04.11.17:722][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/myfolder/objects/rightdoormodel" FILE="../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Content/myfolder/objects/rightdoormodel.uasset" SILENT=true
+[2021.02.08-04.11.17:733][882]LogSavePackage: Moving '../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/rightdoormodel0DF14D2B48F90352E889E48670230343.tmp' to '../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Content/myfolder/objects/rightdoormodel.uasset'
+[2021.02.08-04.11.17:742][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/myfolder/objects/leftdoormodel" FILE="../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Content/myfolder/objects/leftdoormodel.uasset" SILENT=true
+[2021.02.08-04.11.17:752][882]LogSavePackage: Moving '../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/leftdoormodelC5B518814E914BED0DDF66B585CA67A0.tmp' to '../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Content/myfolder/objects/leftdoormodel.uasset'
+[2021.02.08-04.11.17:847][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2021.02.08-04.11.17:856][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2021.02.08-04.11.17:871][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.02.08-04.11.17:880][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2021.02.08-04.11.17:901][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/myfolder/blueprints/bigdoors" FILE="../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Content/myfolder/blueprints/bigdoors.uasset" SILENT=true
+[2021.02.08-04.11.17:924][882]LogSavePackage: Moving '../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/bigdoors8BDB8BF14ABE33E3D8F7CAB78FE650D1.tmp' to '../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Content/myfolder/blueprints/bigdoors.uasset'
+[2021.02.08-04.11.17:966][882]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.08-04.11.17:966][882]LogContentValidation: Display: Validating StaticMesh /Game/myfolder/objects/rightdoormodel.rightdoormodel
+[2021.02.08-04.11.17:966][882]LogContentValidation: Display: Validating StaticMesh /Game/myfolder/objects/leftdoormodel.leftdoormodel
+[2021.02.08-04.11.17:966][882]LogContentValidation: Display: Validating Blueprint /Game/myfolder/blueprints/bigdoors.bigdoors
+[2021.02.08-04.11.43:698][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2021.02.08-04.11.50:022][734]LogSlate: Window 'Delete Assets' being destroyed
+[2021.02.08-04.11.54:183][227]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/AAGAM3362/00_One-Sheets/02_Blog02_DoorSubmission/KatzTy/blueprints/Material.Material
+[2021.02.08-04.11.54:185][227]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2021.02.08-04.11.54:453][227]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2021.02.08-04.11.54:464][227]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.02.08-04.11.54:470][227]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.02.08-04.11.54:470][227]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.02.08-04.11.54:471][227]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.02.08-04.11.54:471][227]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.02.08-04.11.54:471][227]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.02.08-04.11.54:471][227]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.02.08-04.11.54:471][227]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.02.08-04.11.54:471][227]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.02.08-04.11.54:471][227]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.02.08-04.11.54:487][227]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.02.08-04.11.54:538][228]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.02.08-04.11.54:564][230]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2021.02.08-04.11.54:564][230]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2021.02.08-04.11.54:564][230]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2021.02.08-04.11.55:539][305]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.02.08-04.11.55:768][323]MaterialEditorStats: Base pass shader: 119 instructions
+[2021.02.08-04.11.55:768][323]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2021.02.08-04.11.55:768][323]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2021.02.08-04.11.55:768][323]MaterialEditorStats: Texture samplers: 2/16
+[2021.02.08-04.11.55:784][323]LogSlate: Took 0.007963 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.02.08-04.11.57:087][480]LogSlate: Window 'Material' being destroyed
+[2021.02.08-04.11.57:090][480]LogSlate: Window 'Material' being destroyed
+[2021.02.08-04.11.57:131][480]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.02.08-04.11.57:131][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.08-04.12.07:919][760]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.02.08-04.12.20:368][760]LogSlate: Window 'Replace References?' being destroyed
+[2021.02.08-04.12.20:371][760]Message dialog closed, result: Ok, title: Replace References?, text: This will replace any reference to the pending deleted assets with BaseMaterial; and then delete them.
+
+Are you sure?
+[2021.02.08-04.12.20:372][760]LogSlate: Window 'Delete Assets' being destroyed
+[2021.02.08-04.12.21:021][760]LogStaticMesh: Building static mesh rightdoormodel...
+[2021.02.08-04.12.21:023][760]LogStaticMesh: Built static mesh [0.00s] /Game/myfolder/objects/rightdoormodel.rightdoormodel
+[2021.02.08-04.12.21:024][760]LogStaticMesh: Building static mesh leftdoormodel...
+[2021.02.08-04.12.21:025][760]LogStaticMesh: Built static mesh [0.00s] /Game/myfolder/objects/leftdoormodel.leftdoormodel
+[2021.02.08-04.12.21:112][760]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.02.08-04.12.22:653][760]LogSlate: Window 'Save Content' being destroyed
+[2021.02.08-04.12.22:682][760]LogSavePackage: Moving '../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/Material42D977154CED5F8D3CE8A1AB346B0A02.tmp' to '../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Content/AAGAM3362/00_One-Sheets/02_Blog02_DoorSubmission/KatzTy/blueprints/Material.uasset'
+[2021.02.08-04.12.22:715][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/myfolder/objects/leftdoormodel" FILE="../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Content/myfolder/objects/leftdoormodel.uasset" SILENT=true
+[2021.02.08-04.12.22:732][760]LogSavePackage: Moving '../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/leftdoormodel60F184FF4DE39DBE367538B3EE93F40F.tmp' to '../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Content/myfolder/objects/leftdoormodel.uasset'
+[2021.02.08-04.12.22:751][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/myfolder/objects/rightdoormodel" FILE="../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Content/myfolder/objects/rightdoormodel.uasset" SILENT=true
+[2021.02.08-04.12.22:767][760]LogSavePackage: Moving '../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Saved/rightdoormodel958E05CF40D2CF2FAAC0618F0E5B0D8A.tmp' to '../../../../../../Users/tyler/Documents/Unreal Projects/doorpuzzle/Content/myfolder/objects/rightdoormodel.uasset'
+[2021.02.08-04.12.22:778][760]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.08-04.12.22:778][760]LogContentValidation: Display: Validating ObjectRedirector /Game/AAGAM3362/00_One-Sheets/02_Blog02_DoorSubmission/KatzTy/blueprints/Material.Material
+[2021.02.08-04.12.22:778][760]LogContentValidation: Display: Validating StaticMesh /Game/myfolder/objects/leftdoormodel.leftdoormodel
+[2021.02.08-04.12.22:778][760]LogContentValidation: Display: Validating StaticMesh /Game/myfolder/objects/rightdoormodel.rightdoormodel
+[2021.02.08-04.12.29:440][527]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/myfolder/objects/leftdoormodel.leftdoormodel
+[2021.02.08-04.12.29:663][527]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.02.08-04.12.29:663][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.08-04.12.29:823][528]LogRenderer: Reallocating scene render targets to support 1308x744 Format 10 NumSamples 1 (Frame:1).
+[2021.02.08-04.12.31:393][708]LogSlate: Window 'leftdoormodel' being destroyed
+[2021.02.08-04.12.31:397][708]LogSlate: Window 'leftdoormodel' being destroyed
+[2021.02.08-04.12.31:408][708]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.02.08-04.12.31:408][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.08-04.12.37:450][410]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.02.08-04.12.38:493][410]LogSlate: Window 'Delete Assets' being destroyed
+[2021.02.08-04.12.38:511][410]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.02.08-04.12.38:859][410]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.348 s
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: === Handled ensure: ===
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: 
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: Ensure condition failed: Found [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/Misc/RedirectCollector.cpp] [Line: 201]
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: Cannot remove redirection from /Game/AAGAM3362/00_One-Sheets/02_Blog02_DoorSubmission/KatzTy/blueprints/Material.Material, it was not registered
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: Stack: 
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffaf68bfc8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffaf2a06b1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffd6eed25e UE4Editor-AssetRegistry.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffa59dbd0c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffa59db6df UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffa5199cf8 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffa5429dee UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffa5436dc7 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffabfa207e UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffabfbb27e UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffabe02dc8 UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffabe869cf UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffabe6f4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffabe62392 UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffdf677f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffdf665c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffdf67a619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffdf6617d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007ff8173a5c1d USER32.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007ff8173a5612 USER32.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffdf67b9d9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffabe90d5d UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffabe2bdb7 UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffa54cf00e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffa59daf1c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fff88a0d838 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fff88b1ed69 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fff88b18282 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fff88a77f72 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fff88a16847 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffabfa207e UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffabfbb27e UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffabe02dc8 UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffabe869cf UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffabe6f4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffabe62392 UE4Editor-Slate.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffdf677f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffdf665c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffdf67a619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffdf6617d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007ff8173a5c1d USER32.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007ff8173a5612 USER32.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007fffdf67bb34 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007ff6ed7a68c4 UE4Editor.exe!UnknownFunction []
+[2021.02.08-04.12.38:859][410]LogOutputDevice: Error: [Callstack] 0x00007ff6ed7bba7c UE4Editor.exe!UnknownFunction []
+[2021.02.08-04.12.38:860][410]LogOutputDevice: Error: [Callstack] 0x00007ff6ed7bbb5a UE4Editor.exe!UnknownFunction []
+[2021.02.08-04.12.38:860][410]LogOutputDevice: Error: [Callstack] 0x00007ff6ed7ce31d UE4Editor.exe!UnknownFunction []
+[2021.02.08-04.12.38:860][410]LogOutputDevice: Error: [Callstack] 0x00007ff6ed7d145a UE4Editor.exe!UnknownFunction []
+[2021.02.08-04.12.38:860][410]LogOutputDevice: Error: [Callstack] 0x00007ff8183a7c24 KERNEL32.DLL!UnknownFunction []
+[2021.02.08-04.12.38:860][410]LogOutputDevice: Error: [Callstack] 0x00007ff81850d4d1 ntdll.dll!UnknownFunction []
+[2021.02.08-04.12.38:860][410]LogOutputDevice: Error: 
